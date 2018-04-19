@@ -93,4 +93,5 @@ with two given list [1,3,6,24,78,35,55] and [12,24,35,88,120,155] write a progra
 """
 a = [1,3,6,24,78,35,55]
 b = [12,24,35,88,120,155]
-print(a.intersection(b))
+c = a & b
+print(c)
