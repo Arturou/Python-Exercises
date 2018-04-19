@@ -56,8 +56,8 @@ b = set([2,3,4,5])
 
 #a & b
 #a < b
+#a | b
 #a - b
-#a * b
 
 """Dictionary"""
 menu = {}
