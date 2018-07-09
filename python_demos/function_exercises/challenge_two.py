@@ -5,6 +5,11 @@ import sys
 import functools
 
 def parseInt(s):
+	"""
+	@func: Function that converts a string representation of a number to an integer.
+	@param: s A string of representation of an integer number
+	@return: Integer number representation of the input string
+	"""
 	max_pow_int = len(str(sys.maxsize))-1
 	string_to_num = {"0":0, "1":1, "2":2, "3":3,  "4":4, "5":5, "6":6, "7":7, "8":8, "9":9}
 	if not s.isdigit():
